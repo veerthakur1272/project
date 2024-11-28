@@ -1,0 +1,597 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+*{font-family: "Oswald", sans-serif;
+  font-optical-sizing:auto;
+  font-weight: 585;
+  font-style: normal;
+}*/
+/* *{background-color:antiquewhite;} */
+
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+._4option div {
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    margin: 20px;
+}
+
+._4option div a {
+    display: flex;
+    color: black;
+    /* justify-content: center; */
+    /* align-items:center; */
+    padding: 17px;
+    font-size: 25px;
+}
+
+._4option {
+    position: fixed;
+    right: 0px;
+    top: 200px;
+    z-index: 100;
+}
+
+#phoneicons {
+    background-color: black;
+    color: blue;
+    border-radius: 50%;
+    padding: 20px;
+    font-size: 20px;
+    right: 100px;
+    position: fixed;
+    bottom: 100px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f0ebe2;
+    /* border-radius: 20px; */
+
+}
+
+.navbar article {
+    display: flex;
+}
+
+.navbar article div {
+    margin: 15px;
+}
+
+.navbar article .free .after::after {
+    content: "Learn More";
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    margin: 5px;
+    padding: 0px 10px 0px 10px;
+
+}
+
+.navbar article div a {
+    text-decoration: none;
+    margin: 5px;
+    color: black;
+    font-weight: 300;
+}
+
+
+/*===================mid navbar=====================*/
+
+.midnavbar .mida1 div i {
+    color: rgb(131, 131, 131);
+
+}
+
+.midnavbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.midnavbar article {
+    display: flex;
+}
+
+.midnavbar article div img {
+    width: 150px;
+}
+
+.midnavbar article div input {
+    background-color: rgb(232, 231, 231);
+    border: none;
+    outline: none;
+    /* font-weight: bold; */
+    font-size: 15px;
+
+
+}
+
+.midnavbar .mida1 {
+    background-color: rgb(232, 231, 231);
+    padding: 15px 70px 15px 70px;
+    border-radius: 20px;
+
+}
+
+.midnavbar article div a {
+    text-decoration: none;
+    margin: 10px;
+    color: black;
+    /* font-weight: 550; */
+    font-family: -apple-system, Arial, "Noto Sans", "Liberation Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+#vvv {
+    margin-right: 7px;
+    font-size: 25px;
+
+}
+
+#bbb {
+    margin-right: 7px;
+    font-size: 25px;
+}
+
+#sss {
+    margin-left: 7px;
+    font-size: 25px;
+}
+
+/*====================bottom navbar==========================*/
+
+.bottomnavbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    font-family: -apple-system, Arial, "Noto Sans", "Liberation Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.bottomnavbar div a {
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+}
+
+.bottomnavbar div a span {
+    color: orangered;
+}
+
+/*=======================hero========================*/
+
+.hero {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.hero .hero1 {
+    width: 18vw;
+    height: 84vh;
+}
+
+.hero .hero1 div img {
+    width: 18vw;
+    height: 84vh;
+}
+
+.hero .hero2 {
+    width: 28vw;
+    height: 84vh;
+}
+
+.hero .hero2 div img {
+    width: 28vw;
+    height: 84vh;
+}
+
+.hero .hero3 {
+    width: 48vw;
+    height: 70vh;
+}
+
+.hero .hero3 div img {
+    width: 48vw;
+}
+
+/*=======================pcard==============*/
+.Arrivals {
+    margin-left: 35px;
+    margin-top: 40px;
+    font-size: 23px;
+    margin-bottom: 15px;
+    font-family: -apple-system, Arial, "Noto Sans", "Liberation Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: bold;
+    color: rgb(80, 77, 77);
+}
+
+.pcard article img {
+    width: 312px;
+}
+
+.pcard article {
+    margin: 10px;
+}
+
+.pcard {
+    display: flex;
+    /* padding: 15px; */
+    overflow-x: scroll;
+    /* margin-top: 0px; */
+    margin-left: 20px;
+}
+
+.pcard::-webkit-scrollbar {
+    display: none;
+}
+
+.pcard article div img {
+    transition: scale 0.9s;
+}
+
+.pcard article div img:hover {
+    scale: 1.2;
+    /* transition: scale 0.5s; */
+}
+
+.pcard article div {
+    overflow: hidden;
+}
+
+.text1 {
+    margin-top: 10px;
+    font-size: 11px;
+    letter-spacing: .025em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.text2 {
+    margin-top: 7px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: .025em;
+}
+
+.text3 {
+    margin-top: 7px;
+    font-weight: 00px;
+
+}
+
+/*=========================================*/
+
+.er article div {
+    background-image: url(https://www.portotheme.com/wordpress/porto/shop49/wp-content/uploads/sites/232/2024/07/shop49-prodcut1-2-560x560.jpg);
+    width: 300px;
+    height: 300px;
+}
+
+.er article div:hover {
+    scale: 1.2;
+    transition: scale 0.5s;
+}
+
+.er article {
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+}
+
+/* ---------------Shop By Category -------------------*/
+.Category {
+    margin-left: 35px;
+    margin-top: 40px;
+    font-size: 23px;
+    margin-bottom: 15px;
+    font-family: -apple-system, Arial, "Noto Sans", "Liberation Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: bold;
+    color: rgb(80, 77, 77);
+}
+
+.ShopCategory article img {
+    width: 202px;
+    height: 202px;
+}
+
+.ShopCategory::-webkit-scrollbar {
+    display: none;
+}
+
+.ShopCategory {
+    margin-left: 20px;
+}
+
+.ShopCategory article {
+    margin: 10px;
+}
+
+.ShopCategory {
+    display: flex;
+    padding: 0px;
+    overflow-x: scroll;
+}
+
+.ShopCategory article div img:hover {
+    scale: 1.1;
+}
+
+.ShopCategory article div img {
+    transition: scale 0.7s;
+}
+
+.ShopCategory article div {
+    overflow: hidden;
+}
+
+/* .behavior {
+    padding: 30px;
+    font-size: 25px;
+    /* width:10000px !important;
+    animation: 193.079s linear 0s infinite normal none running;
+    overflow: hidden;
+    white-space: nowrap;
+    overflow-x: scroll;
+ } */
+
+.line1 {
+    margin-bottom: 8px;
+}
+
+.line2 {
+    margin: 25px;
+    margin-right: 0px;
+}
+
+.line3 {
+    margin: 30px;
+    margin-top: 40px;
+}
+
+.line4 {
+    margin: 20px;
+    margin-top: 40px;
+}
+
+.shop {
+    white-space: nowrap;
+    overflow: hidden;
+    font-family: 'roboto', sans-serif;
+    height: 8vh;
+    margin-top: 40px;
+}
+
+/* .shop:hover .shop-slide{
+    animation-play-state: paused;
+ } */
+.shop-slide {
+    font-size: 23px;
+    display: inline-block;
+    /* animation: 20s slide infinite linear; */
+    animation: slide 15s linear infinite;
+}
+
+@keyframes slide {
+    0% {
+        transform: translatex(0);
+    }
+
+    100% {
+        transform: translatex(-100%);
+    }
+}
+
+/* --------------product--2---------------------------- */
+#product-main {
+    display: flex;
+    margin-left: 20px;
+    flex-wrap: nowrap;
+}
+
+.product-2 div img {
+    width: 58vh;
+    height: 58vh;
+    /* margin: 20px; */
+    margin-top: 0px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+#product-main div img {
+    transition: scale 0.9s ease;
+}
+
+#product-main div img:hover {
+    scale: 1.1;
+
+}
+
+.produt1 div img {
+    width: 213px;
+    height: 213px;
+    margin: 10px;
+    margin-top: 0px;
+    transition: scale 0.7s ease;
+}
+
+.produt1 {
+    display: flex;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+
+}
+
+#product-main div {
+    overflow: hidden;
+}
+
+.produt1 div img:hover {
+    scale: 1.1;
+
+}
+
+.produt1::-webkit-scrollbar {
+    display: none;
+}
+
+#for4{
+    margin-top: 20px;
+}
+
+.samllsize {
+    margin-left: 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 11px;
+    letter-spacing: .025em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.lagesize {
+    font-weight: 600;
+    margin-top: 30px;
+    text-decoration: none;
+    padding-top: 40px;
+    margin-left: 10px;
+    color: black;
+    letter-spacing: .025em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.starsize {
+    text-decoration: none;
+    font-size: 14px;
+    margin-left: 10px;
+    margin-top: 40px;
+    color: black;
+    letter-spacing: .025em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.dolarsize {
+    text-decoration: none;
+    margin-left: 10px;
+    margin-top: 40px;
+    font-weight: 700;
+    color: black;
+    letter-spacing: .025em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.chairfont1 {
+    margin-left: 10px;
+    margin-top: 17px;
+    font-size: 12px;
+    letter-spacing: .025em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.chairfont2 {
+    font-weight: 600;
+    font-size: 23PX;
+    margin-top: 8px;
+    margin-left: 10px;
+    letter-spacing: .025em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.chairfont3 {
+    font-size: 14px;
+    margin-top: 10px;
+    margin-left: 10px;
+    letter-spacing: .025em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.chairfont4 {
+    font-weight: 600;
+    font-size: 23PX;
+    margin-top: 3px;
+    margin-left: 10px;
+    letter-spacing: .025em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.chairfont5 {
+    margin-top: 30px;
+    margin-left: 10px;
+    letter-spacing: .025em;
+    font-family: Arial, Helvetica, sans-serif;
+    /* margin-right: 170px; */
+    height: 40px;
+    width: 200px;
+    background-color: black;
+    color: white;
+}
+
+.line5 {
+    margin-top: 80px;
+    margin-bottom: 70px;
+}
+
+.Shopbrand {
+    display: flex;
+    /* background-repeat: no-repeat; */
+    /* z-index: 100%; */
+    margin-left: 20px;
+    margin-bottom: 70px; 
+   
+}
+
+.Shopbrand article div{
+    width: 200px;
+    height: 140px;
+    background-color: #f2f2f2;
+    margin: 10px;
+}
+.Shopbrand article div img {
+     padding: 40px;
+}
+
+.line6{
+    margin-bottom: 70px;
+}
+
+#chairmain{
+display: flex;
+}
+
+.chairfista div {
+    background-image:url(https://www.portotheme.com/wordpress/porto/shop49/wp-content/uploads/sites/232/2024/07/shop49-bg-1.jpg);
+    height: 700px;
+    width: 700px;
+    margin-left: 30px;
+    padding-top:150px;
+    justify-content: center;
+}
+.chairscand div {
+    height: 99.5%;
+    width: 620px;
+    background-color: #f2f2f2;
+    /* margin-left: 0px;
+    padding-left: 0px; */
+}
+
+.chairscand div img{
+    height: 500px;
+    /* justify-content: center; */
+    margin-left: 50px;
+    transition: scale 0.7s ease;
+
+}
+.chairscand div img:hover{
+    background-image:url(https://www.portotheme.com/wordpress/porto/shop49/wp-content/uploads/sites/232/2024/07/shop49-product13-2-1-600x600.jpg);
+    scale: 1.1;
+}
+
+
+.chairtext{
+    font-size: 50px;
+}
