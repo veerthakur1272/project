@@ -44,6 +44,7 @@
     right: 100px;
     position: fixed;
     bottom: 100px;
+    z-index: 100;
 }
 
 .navbar {
@@ -156,7 +157,8 @@
     margin-bottom: 10px;
 }
 .bottomnavbar div:hover{
-    background-color: black;
+    background-color: #cecdcd;
+    opacity:100%;
 }
 .bottomnavbar div a {
     text-decoration: none;
@@ -440,7 +442,6 @@
 
 .produt1 div img:hover {
     scale: 1.1;
-
 }
 
 .produt1::-webkit-scrollbar {
@@ -721,9 +722,47 @@ margin-left: 20px;
     background-color: black;
 } */
 
-/* .fotar{
+.fotar{
     width: 100%;
-    height: 70vh;
-    background-color: #d1cece;
-} */
+    height: 90vh;
+    background-color: #dadada;
+}
 
+.logofotar img{
+    margin-left: 30px;
+    margin-top: 100px;
+    width: 120px;
+    height: auto;   
+}
+
+.textlogobottam{
+    text-decoration: none;
+    color: black;
+    margin-left: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    opacity: 70%;
+    letter-spacing: .025em;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    display: grid;
+}
+
+.textlogobottam2{
+    text-decoration: none;
+    color: black;
+    margin-left: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    opacity: 70%;
+    letter-spacing: .025em;
+}
+/* 
+.textright{
+    margin-left:250px;
+    text-decoration: none;
+    color: black;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+
+}  */
