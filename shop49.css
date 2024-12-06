@@ -767,11 +767,11 @@ margin-left: 20px;
 
 }  */
 
-#funitureposter{
+#funitureposter img{
     margin-left: 30px;
     width: 95.6%;
     height: 250px;
-    background-color:#dbdbdb;
+    /* background-color:#dbdbdb; */
 }
 
 .textfuniture1{
@@ -796,8 +796,9 @@ margin-left: 20px;
 
 }
 
-.funitureimg{
+.funitureimg div img {
     margin-left: 900px;
     margin-top: 0px;
+    border-radius: 50%;
 }
 
